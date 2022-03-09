@@ -13,14 +13,12 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import BookmarkIcon from '@mui/icons-material/Bookmark';
-import {log} from "util";
 
 interface Props {
     post: Post
 }
 
 const Post = ({post}: Props) => {
-    console.log(post)
     const [showComments, setShowComments] = useState<boolean>(false);
     const updateOpenCommentsStatue = (statue: boolean): void => {
         setShowComments(statue)

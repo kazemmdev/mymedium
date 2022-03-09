@@ -22,9 +22,11 @@ export default async function createComment(req: NextApiRequest, res: NextApiRes
             name,
             email,
             message
+        }).then(() => {
+            return res.status(200).json({message: "comment submit"})
         })
     } catch (e) {
-        return res.status(500).json({message: "errr", e})
+        return res.status(500).json({message: "error: ", e})
     }
 
 }
