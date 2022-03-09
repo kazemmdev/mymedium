@@ -15,5 +15,22 @@ export interface Post {
     slug: {
         current: string
     },
-    body: [object]
+    body: [object],
+    comments: Comment[]
+}
+
+export interface Comment {
+    _id: string,
+    _type: string,
+    _rev: string,
+    approved: boolean,
+    message: string,
+    email: string,
+    name: string,
+    post: {
+        _ref: string,
+        _type: string
+    }
+    _createdAt: string,
+    _updatedAt: string,
 }
