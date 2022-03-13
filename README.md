@@ -1,27 +1,46 @@
-# Next.js + Tailwind CSS Example
+<img src="./assets/medium.jpg" alt="mymedium">
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+# Medium.com (Redesign with Next.js & Tailwindcss)
 
-## Preview
+It is a redesign of the popular blogging website [Medium.com](https://medium.com). It is designed with React and Tailwindcss in [Nextjs](https://nextjs.org/) framework, and use and config [Sanity](https://www.sanity.io/) as CMS. It is hosted on [vercel](https://medium-clone-blond.vercel.app/).
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Features
+* Nextjs
+* Sanity
+* React 17
+* Typescript
+* Tailwindcss
 
-## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+## Usage
+This repo required [Node](https://nodejs.org/en/) stable version     before setup
+1. Clone this Repo
+2. cd `e`
+3. Create a .env by copying .env.example and Update the required fields.
+4. Run `npm install`
+5. Run `npm run dev`
+6. cd `sanity` 
+7. Run `npm install`
+8. Run `Sanity Start`
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Contributing
 
-## How to use
+Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+## Security Vulnerabilities
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## Credits
+
+-   [k90mirzaei](https://github.com/k90mirzaei)
+-   [All Contributors](../../contributors)
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+## Support
+
+This project needs a ⭐️ from you. Don't forget to leave a star ⭐️
